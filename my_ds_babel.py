@@ -29,6 +29,7 @@ def csv_to_sql(csv_content, database, table_name):
     for i in curs.description:
         for_description.append(i)
     return for_description
+
     # connected = 
 # print(csv_to_sql("list_volcano.csv", "list_volcano.db", "volcanos"))
     # return 
